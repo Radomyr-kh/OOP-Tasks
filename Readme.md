@@ -44,7 +44,7 @@ Please, use _Symbol_ data type.
 
 # Task 4
 
-Implement the **_getMin(arr)_** function, which takes an array of numbers arr and returns the smallest number of the array. To solve the problem, you must use one of the methods to specify the context of this. It is forbidden to use any cycles.
+Implement the **_getMin(arr)_** function, which takes an array of numbers arr and returns the smallest number of the array. To solve the problem, you must use one of the methods to specify the context of this. It is forbidden to use any loops.
 
 # Task 5
 
@@ -62,8 +62,7 @@ Implement the **_Plane_** class, the constructor of which accepts 3 parameters:
 
 1. Create a method of class **_calcFlightRange()_** , which determines the range of the plane by the formula **_fuelSupply / fuelConsumption \* 100_** and returns it.
 
-2. Create a static method of class **_sortFlightRange(planesArray)_** , which takes an array of instances of class **_planesArray_**, sorts the flight range of plane in ascending order
-   and outputs the result to the console in the format **_plane_model: range_**.
+2. Create a static method of class **_sortFlightRange(planesArray)_** , which takes an array of instances of class **_planesArray_**, sorts the flight range of plane in ascending order and outputs the result to the console in the format **_plane_model: range_**.
 
 3. Create a **_TransportPlane_** class, which is inherited from the **_Plane_** class, the constructor of which takes 5 parameters:
 
