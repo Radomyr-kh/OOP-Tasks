@@ -12,45 +12,44 @@ import pizzaMenu from './Tasks/task-7-menu.js';
 import PizzaMaker from './Tasks/task-7.js';
 
 // !Task-1
-const movie1 = new Movie('Titanic', 'drama', 1997);
-const movie2 = new Movie('Troya', 'historical', 2004);
+const avatar = new Movie('Avatar', 'sci-fi', 2009);
+const batman = new Movie('Batman', 'action', 2022);
 
-console.log(movie1);
-console.log(movie2);
-console.log(movie1.watchMovie());
-console.log(movie2.watchMovie());
+console.log(avatar);
+console.log(batman);
+console.log(avatar.watchMovie());
+console.log(batman.watchMovie());
 
 // !Task-2
-const stud1 = new Student('Ivan Petrenko', 'web');
-const stud2 = new Student('Sergiy Koval', 'python');
-const stud3 = Student.studentBuilder();
+const ivan = new Student('Ivan Petrenko', 'web');
+const sergiy = new Student('Sergiy Koval', 'python');
+const defaultStudent = Student.studentBuilder();
 
-let a = stud1.nameIncludes('Ivan'); // true
-let b = stud1.nameIncludes('Denysenko'); // false
+let a = ivan.nameIncludes('Ivan'); // true
+let b = sergiy.nameIncludes('Denysenko'); // false
 
 console.log(a);
 console.log(b);
-console.log(stud3);
+console.log(defaultStudent);
 
 // !Task-3
 const localDistributor = new Distributor();
 
 // 1
-const product1 = new MyProduct('butter');
-product1.distribute(localDistributor);
+const butter = new MyProduct('butter');
+butter.distribute(localDistributor);
 console.log(localDistributor.products);
 
 // 2
 new MyProduct('bread').distribute(localDistributor);
-new MyProduct('bread').distribute(localDistributor);
 console.log(localDistributor.products);
 
 // 3
-localDistributor.removeProduct(product1.id);
+localDistributor.removeProduct(butter.id);
 console.log(localDistributor.products);
 
 // !Task-4
-console.log(getMin([12, 6, 22, 13, 7, 1])); //6
+console.log(getMin([12, 6, 20, 18, 8, 3])); // 3
 console.log(getMin([15, 26, 2, -3, 3, 33])); // -3
 
 // !Task-5
@@ -58,13 +57,13 @@ console.log(getProduct(4, 5)); // 1200
 console.log(getProduct(6, 7)); // 2520
 
 // !Task-6
-const plane1 = new TransportPlane('An-225 Mriya', 105000, 5000, 500, 300000);
-const plane2 = new PassengerPlane('Boeing-747', 193000, 2500, 410, 90000);
-const plane3 = new WarPlane('F-22 Raptor', 8200, 320, 20, 1.2);
+const mriya = new TransportPlane('An-225 Mriya', 106000, 4000, 600, 280000);
+const boeing = new PassengerPlane('Boeing-767', 192000, 2300, 320, 90000);
+const falcon = new WarPlane('F-16 Falcon', 8200, 230, 20, 1.3);
 
 console.log('Sorted range of planes:');
 
-const planesArray = [plane1, plane2, plane3];
+const planesArray = [mriya, boeing, falcon];
 Plane.sortFlightRange(planesArray);
 
 // !Task-7
