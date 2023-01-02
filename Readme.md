@@ -6,7 +6,7 @@ Create a **_Movie class_**, the constructor of which accepts 3 parameters:
 - **_category_** - movie genre,
 - **_startShow_** - movie start year
 
-The class has a **_watchMovie()_** method that returns a phrase and adds a movie name name parameter to it at the end. **For example**, "I watch the movie Avatar!"
+The class has a **_watchMovie()_** method that returns a phrase and adds a movie name **_name_** parameter to it at the end. **For example**, "I watch the movie Avatar!"
 
 Create an instance of the **_movie_** class with the title of the movie "Avatar", the genre "sci-fi" and 2009 release.  
 Create an instance of the **_movie_** class with the title of the movie "Batman", the genre "action" and the 2022 release.
