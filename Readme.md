@@ -8,8 +8,7 @@ Create a **_Movie class_**, the constructor of which accepts 3 parameters:
 
 The class has a **_watchMovie()_** method that returns a phrase and adds a movie name name parameter to it at the end. **For example**, "I watch the movie Titanic!"
 
-Create an instance of the **_movie1_** class with the title of the movie "Titanic", the genre "drama" and 1997 release.
-
+Create an instance of the **_movie1_** class with the title of the movie "Titanic", the genre "drama" and 1997 release.  
 Create an instance of the **_movie2_** class with the title of the movie "Troya", the genre "historical" and the 2004 release.
 
 # Task 2
@@ -19,13 +18,13 @@ Implement the **_Student_** class, the constructor of which accepts 2 parameters
 - **_fullName_** - the name and surname of the student,
 - **_direction_** - the direction in which he studies.
 
-Create a **_showFullName()_** method that returns the student's first and last name.
-Create a **_nameIncludes(data)_** method that, using the **_showFullName()_** method, checks for the text data argument in the student’s name and returns true if a match is found or false if not found.
-Create a static **_studentBuilder()_** method that returns a new instance of the class named ‘Ihor Kohut’ and the direction ‘qc’.
-Create a getter and setter **_direction()_** to read and specify the direction field.
-Create an instance of class **_stud1_** named 'Ivan Petrenko' and direction 'web'.
-Create an instance of class **_stud2_** named 'Sergiy Koval' and direction 'python'.
-Create an instance of the **_stud3_** class named ‘Ihor Kohut’ and the direction ‘qc’ using the static **_studentBuilder()_** method.
+Create a **_showFullName()_** method that returns the student's first and last name.  
+Create a **_nameIncludes(data)_** method that, using the **_showFullName()_** method, checks for the text data argument in the student’s name and returns true if a match is found or false if not found.  
+Create a static **_studentBuilder()_** method that returns a new instance of the class named ‘Ihor Kohut’ and the direction ‘qc’.  
+Create a getter and setter **_direction()_** to read and specify the direction field.  
+Create an instance of class **_stud1_** named 'Ivan Petrenko' and direction 'web'.  
+Create an instance of class **_stud2_** named 'Sergiy Koval' and direction 'python'.  
+Create an instance of the **_stud3_** class named ‘Ihor Kohut’ and the direction ‘qc’ using the static **_studentBuilder()_** method.  
 
 **Usage example:**
 const stud1 = new Student('Ivan Petrenko', 'web');
