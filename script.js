@@ -1,15 +1,13 @@
-// !Task-1
-class Movie {
-  constructor(name, category, startShow) {
-    this.name = name;
-    this.category = category;
-    this.startShow = startShow;
-  }
-  watchMovie() {
-    return `I watch the movie ${this.name}!`;
-  }
-}
+import Movie from './Tasks/task-1.js';
+import Student from './Tasks/task-2.js';
+// import Movie from './Tasks/task-2.js';
+// import Movie from './Tasks/task-3.js';
+// import Movie from './Tasks/task-4.js';
+// import Movie from './Tasks/task-5.js';
+// import Movie from './Tasks/task-6.js';
+// import Movie from './Tasks/task-7.js';
 
+// !Task-1
 const movie1 = new Movie('Titanic', 'drama', 1997);
 const movie2 = new Movie('Troya', 'historical', 2004);
 
@@ -19,29 +17,6 @@ console.log(movie1.watchMovie());
 console.log(movie2.watchMovie());
 
 // !Task-2
-class Student {
-  constructor(fullName, direction) {
-    this._fullName = fullName;
-    this._direction = direction;
-  }
-  showFullName() {
-    return `${this._fullName}`;
-  }
-
-  nameIncludes(data) {
-    return this.showFullName().includes(data);
-  }
-  static studentBuilder() {
-    return new Student('Ihor Kohut', 'qc');
-  }
-  get direction() {
-    return this._direction;
-  }
-  set direction(value) {
-    this._direction = value;
-  }
-}
-
 const stud1 = new Student('Ivan Petrenko', 'web');
 const stud2 = new Student('Sergiy Koval', 'python');
 const stud3 = Student.studentBuilder();
