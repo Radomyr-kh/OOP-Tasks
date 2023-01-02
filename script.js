@@ -10,7 +10,6 @@ class Movie {
   }
 }
 
-// my code
 const movie1 = new Movie('Titanic', 'drama', 1997);
 const movie2 = new Movie('Troya', 'historical', 2004);
 
