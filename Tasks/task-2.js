@@ -1,4 +1,4 @@
-class Student {
+export default class Student {
   constructor(fullName, direction) {
     this._fullName = fullName;
     this._direction = direction;
@@ -6,7 +6,6 @@ class Student {
   showFullName() {
     return `${this._fullName}`;
   }
-
   nameIncludes(data) {
     return this.showFullName().includes(data);
   }
@@ -20,5 +19,3 @@ class Student {
     this._direction = value;
   }
 }
-
-export default Student;
