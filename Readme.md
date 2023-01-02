@@ -128,7 +128,7 @@ There are **4 types of pizza** available:
 
 - meat,
 - fish,
-- cheese
+- cheese,
 - vegetarian.
 
 When creating a new pizza, be sure to specify the size and appearance.
