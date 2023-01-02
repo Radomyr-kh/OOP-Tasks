@@ -26,7 +26,7 @@ Create an instance of class **_stud1_** named 'Ivan Petrenko' and direction 'web
 Create an instance of class **_stud2_** named 'Sergiy Koval' and direction 'python'.  
 Create an instance of the **_stud3_** class named ‘Ihor Kohut’ and the direction ‘qc’ using the static **_studentBuilder()_** method.  
 
-**Usage example:**
+**Usage example:**  
 const stud1 = new Student('Ivan Petrenko', 'web');  
 stud1.nameIncludes('Ivan'); // true  
 stud1.nameIncludes('Denysenko'); // false  
