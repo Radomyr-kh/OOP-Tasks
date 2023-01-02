@@ -27,15 +27,15 @@ Create an instance of class **_stud2_** named 'Sergiy Koval' and direction 'pyth
 Create an instance of the **_stud3_** class named ‘Ihor Kohut’ and the direction ‘qc’ using the static **_studentBuilder()_** method.  
 
 **Usage example:**
-const stud1 = new Student('Ivan Petrenko', 'web');
-stud1.nameIncludes('Ivan'); // true
-stud1.nameIncludes('Denysenko'); // false
+const stud1 = new Student('Ivan Petrenko', 'web');  
+stud1.nameIncludes('Ivan'); // true  
+stud1.nameIncludes('Denysenko'); // false  
 
 # Task 3
 
-Please, fill in missed lines of code.
-Product constructor should provide a generation of unique product id within the application no matter how many products are created.
-Distributor can store information about products in its products property and has an ability to add and remove a product.
+Please, fill in missed lines of code.  
+Product constructor should provide a generation of unique product id within the application no matter how many products are created.  
+Distributor can store information about products in its products property and has an ability to add and remove a product.  
 
 - **_addProduct_** adds a new property to products with name of product id and value - product name.
 - **_removeProduct_** removes a property with specified id from **_products_**.
@@ -95,28 +95,28 @@ In this class, you need to override the **_calcFlightRange()_** method to take i
 
 In this class, you need to override the **_calcFlightRange()_** method in such
 a way as to take into account that the flight range of the plane increases in proportion to the value of the aerodynamics coefficient of **_aerodynamicsKoef_**.
+ 
+**Usage example:**  
+_console.log("Unsorted range of planes:");  
+const plane1 = new TransportPlane("An-225 Mriya", 105000, 5000, 500, 300000);  
+console.log("An-225 Mriya: ", plane1.calcFlightRange());  
+const plane2 = new PassengerPlane("Boeing-747", 193000, 2500, 410, 90000);  
+console.log("Boeing-747:", plane2.calcFlightRange());  
+const plane3 = new WarPlane("F-22 Raptor", 8200, 320, 20, 1.2);  
+console.log("F-22 Raptor:", plane3.calcFlightRange());  
+console.log("Sorted range of planes:");  
+const planesArray = [plane1, plane2, plane3];  
+Plane.sortFlightRange(planesArray);_ 
 
-**Usage example:**
-_console.log("Unsorted range of planes:");
-const plane1 = new TransportPlane("An-225 Mriya", 105000, 5000, 500, 300000);
-console.log("An-225 Mriya: ", plane1.calcFlightRange());
-const plane2 = new PassengerPlane("Boeing-747", 193000, 2500, 410, 90000);
-console.log("Boeing-747:", plane2.calcFlightRange());
-const plane3 = new WarPlane("F-22 Raptor", 8200, 320, 20, 1.2);
-console.log("F-22 Raptor:", plane3.calcFlightRange());
-console.log("Sorted range of planes:");
-const planesArray = [plane1, plane2, plane3];
-Plane.sortFlightRange(planesArray);_
-
-**Output in console:**
-_Unsorted range of planes:
-An-225 Mriya: 8100
-Boeing-747: 11320
-F-22 Raptor: 3075
-Sorted range of planes:
-F-22 Raptor: 3075
-An-225 Mriya: 8100
-Boeing-747: 11320_
+**Output in console:**  
+_Unsorted range of planes:  
+An-225 Mriya: 8100  
+Boeing-747: 11320  
+F-22 Raptor: 3075  
+Sorted range of planes:  
+F-22 Raptor: 3075  
+An-225 Mriya: 8100  
+Boeing-747: 11320_  
 
 # Task 7
 
