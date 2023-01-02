@@ -150,7 +150,7 @@ The **_PizzaMaker_** class has a number of methods for generating pizza:
 - **_calculatePrice()_** method calculates and returns the total cost of a pizza, which consists of the sum of the values of all its components.
 - **_calculateCalories()_** method calculates and returns the total calorie content of a pizza, which consists of the sum of the calories of all its components
 
-**Usage example:**
+**Usage example:**  
 _const pizzaMenu = {  
 SIZE_S: {param: "SIZE_S", price: 60, calorie: 300},  
 SIZE_M: {param: "SIZE_M", price: 90, calorie: 450},  
@@ -179,7 +179,7 @@ console.log("getIngredients:", pizza.getIngredients());
 console.log("calculatePrice:", pizza.calculatePrice());  
 console.log("calculateCalories:", pizza.calculateCalories());_
 
-**Output in console:**
+**Output in console:**  
 _Size: SIZE_M  
 Kind: KIND_MEAT  
 calculatePrice: 145  
