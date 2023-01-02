@@ -20,17 +20,11 @@ Implement the **_Student_** class, the constructor of which accepts 2 parameters
 - **_direction_** - the direction in which he studies.
 
 Create a **_showFullName()_** method that returns the student's first and last name.
-
 Create a **_nameIncludes(data)_** method that, using the **_showFullName()_** method, checks for the text data argument in the student’s name and returns true if a match is found or false if not found.
-
 Create a static **_studentBuilder()_** method that returns a new instance of the class named ‘Ihor Kohut’ and the direction ‘qc’.
-
 Create a getter and setter **_direction()_** to read and specify the direction field.
-
 Create an instance of class **_stud1_** named 'Ivan Petrenko' and direction 'web'.
-
 Create an instance of class **_stud2_** named 'Sergiy Koval' and direction 'python'.
-
 Create an instance of the **_stud3_** class named ‘Ihor Kohut’ and the direction ‘qc’ using the static **_studentBuilder()_** method.
 
 **Usage example:**
